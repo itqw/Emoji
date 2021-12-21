@@ -1,0 +1,52 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background: #efefef;
+}
+.box {
+    width: 95%;
+    height: 95%;
+    background: #ffffff;
+    border-radius: 15px;
+    /*box-shadow: rgba(0.7, 0.7, 0.7, 0.7);*/
+    box-shadow: 0 9px 38px rgba(0,0,0,0.15), 0 6px 12px rgba(0,0,0,0.05);
+}
+.title {
+    font-family: "HKGrotesk-Medium", "monospace";
+    font-size: 48em;
+    padding-top: 5px;
+}
+.textarea {
+    resize: none;
+    width: calc(100% - 30px);
+    height: 30%;
+    border: #efefef solid 3px;
+    border-radius: 10px;
+    outline: 0;
+}
+.user-text {
+    margin-top: 10px;
+}
+.button {
+    margin-top: 10px;
+    border: 0;
+    background: #ffffff;
+    height: 40px;
+    width: 160px;
+    box-shadow: 0 9px 38px rgba(0,0,0,0.15), 0 6px 12px rgba(0,0,0,0.05);
+}
+.button:hover {
+    background: #efefef;
+    cursor: pointer;
+}
+.app-text {
+    margin-top: 15px;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    src: url("/fonts/HKGrotesk-Regular.ttf");
+    font-family: "HKGrotesk-Regular";
+}
+@font-face {
+    src: url("/fonts/HKGrotesk-Medium.ttf");
+    font-family: "HKGrotesk-Medium";
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "HKGrotesk-Regular", "monospace";
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#root {
+    height: 100%;
+    width: 100%;
+}
